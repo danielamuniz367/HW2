@@ -148,7 +148,7 @@ int main() {
 	time_point < Clock > end10 = Clock::now();
 	milliseconds diff10 = duration_cast < milliseconds > (end10 - start10);
 
-	cout << "merge sort lengths and times \n" << endl;
+	cout << "stooge sort lengths and times \n" << endl;
 	cout << "n , " << "time" << endl;
 	cout << "---------------" << endl;
 	cout << n1 << ", " << diff.count() << "ms" << endl;
