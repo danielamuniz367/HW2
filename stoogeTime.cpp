@@ -98,57 +98,57 @@ int main() {
 	for (int i = 0; i < n10; i++) {
 	}
 
-	time_point < Clock > start = Clock::now();	// merge sorting
+	time_point < Clock > start = Clock::now();
 	stoogeSort(arr1, 0, n1 - 1);
 	time_point < Clock > end = Clock::now();
 	milliseconds diff = duration_cast < milliseconds > (end - start);
 
-	time_point < Clock > start2 = Clock::now();	// merge sorting
+	time_point < Clock > start2 = Clock::now();
 	stoogeSort(arr2, 0, n2 - 1);
 	time_point < Clock > end2 = Clock::now();
 	milliseconds diff2 = duration_cast < milliseconds > (end2 - start2);
 
-	time_point < Clock > start3 = Clock::now();	// merge sorting
+	time_point < Clock > start3 = Clock::now();
 	stoogeSort(arr3, 0, n3 - 1);
 	time_point < Clock > end3 = Clock::now();
 	milliseconds diff3 = duration_cast < milliseconds > (end3 - start3);
 
-	time_point < Clock > start4 = Clock::now();	// merge sorting
+	time_point < Clock > start4 = Clock::now();
 	stoogeSort(arr4, 0, n4 - 1);
 	time_point < Clock > end4 = Clock::now();
 	milliseconds diff4 = duration_cast < milliseconds > (end4 - start4);
 
-	time_point < Clock > start5 = Clock::now();	// merge sorting
+	time_point < Clock > start5 = Clock::now();
 	stoogeSort(arr5, 0, n5 - 1);
 	time_point < Clock > end5 = Clock::now();
 	milliseconds diff5 = duration_cast < milliseconds > (end5 - start5);
 
-	time_point < Clock > start6 = Clock::now();	// merge sorting
+	time_point < Clock > start6 = Clock::now();
 	stoogeSort(arr6, 0, n6 - 1);
 	time_point < Clock > end6 = Clock::now();
 	milliseconds diff6 = duration_cast < milliseconds > (end6 - start6);
 
-	time_point < Clock > start7 = Clock::now();	// merge sorting
+	time_point < Clock > start7 = Clock::now();
 	stoogeSort(arr7, 0, n7 - 1);
 	time_point < Clock > end7 = Clock::now();
 	milliseconds diff7 = duration_cast < milliseconds > (end7 - start7);
 
-	time_point < Clock > start8 = Clock::now();	// merge sorting
+	time_point < Clock > start8 = Clock::now();
 	stoogeSort(arr8, 0, n8 - 1);
 	time_point < Clock > end8 = Clock::now();
 	milliseconds diff8 = duration_cast < milliseconds > (end8 - start8);
 
-	time_point < Clock > start9 = Clock::now();	// merge sorting
+	time_point < Clock > start9 = Clock::now();
 	stoogeSort(arr9, 0, n9 - 1);
 	time_point < Clock > end9 = Clock::now();
 	milliseconds diff9 = duration_cast < milliseconds > (end9 - start9);
 
-	time_point < Clock > start10 = Clock::now();	// merge sorting
+	time_point < Clock > start10 = Clock::now();
 	stoogeSort(arr10, 0, n10 - 1);
 	time_point < Clock > end10 = Clock::now();
 	milliseconds diff10 = duration_cast < milliseconds > (end10 - start10);
 
-	cout << "stooge sort lengths and times \n" << endl;
+	cout << "  lengths and times \n" << endl;
 	cout << "n , " << "time" << endl;
 	cout << "---------------" << endl;
 	cout << n1 << ", " << diff.count() << "ms" << endl;
